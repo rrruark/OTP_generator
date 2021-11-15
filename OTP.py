@@ -69,13 +69,13 @@ for i in range(group_count_total):
 	
 	out_str += group + ' '
 	
-	if (i % 5 == 0):
+	if ((i+1) % 5 == 0 and i != 0):
 		out_str += '\r\n'
 		
 	
 print(out_str)
 
 #Writes string to output file.
-f = open("otp3.txt", "w")	
+f = open("otp.txt", "w")	
 f.write(out_str)
 f.close()
