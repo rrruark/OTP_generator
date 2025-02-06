@@ -1,5 +1,7 @@
 # OTP_generator
 
+http://robruark.com/projects/random/random.html
+
 This code generates one time pads from CSV files of time series voltage readings such as those from oscilloscopes.
 
 Any source of data with random low to high transistions can be used as a source. 
